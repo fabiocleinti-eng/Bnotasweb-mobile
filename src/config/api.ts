@@ -8,7 +8,7 @@
  * Troque a URL conforme necessário ou use variáveis de ambiente (.env)
  */
 
-const API_URL = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_API_URL) || 'http://localhost:3000/api';
+const API_URL = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_API_URL) || 'http://127.0.0.1:4040/api';
 
 export default API_URL;
 
